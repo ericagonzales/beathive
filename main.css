@@ -7,7 +7,7 @@
 body {
 	padding: 0; 
 	margin: 0; 
-	background-color: #ffe6f5;
+	background-image: url("images/beyground.png");
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 
 h1 {
 	font-family: "Oswald";
-	font-size: 4em; 
+	font-size: 3em; 
 	color: #ffffff;
 	text-align: center;
 }
@@ -28,6 +28,12 @@ p {
 	color: #ffffff;
 }
 
+#container {
+	height: 450px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
 
 #beyonce {
 	padding-top: none;
@@ -36,6 +42,7 @@ p {
 
 #lemon1, #lemon2 {
 	transform-origin: 50% 50%;
+	margin: 100px;
 }
 
 img {
@@ -68,16 +75,16 @@ img:hover {
 
 /* Assign Classes */
 .animation1 {
-	animation: pulse 0.6060606s ease-in-out infinite alternate;
+	animation: pulse 0.6060606s linear infinite alternate;
 }
 .animation2 {
-	animation: pulse 0.31088083s ease-in-out infinite alternate;
+	animation: pulse 0.31088083s linear infinite alternate;
 }
 .animation3 {
-	animation: pulse 0.32258065s ease-in-out infinite alternate;
+	animation: pulse 0.32258065s linear infinite alternate;
 }
 .animation4 {
-	animation: pulse 0.48780488s ease-in-out infinite alternate;
+	animation: pulse 0.48780488s linear infinite alternate;
 }
 
 

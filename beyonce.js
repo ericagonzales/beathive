@@ -102,8 +102,9 @@ function animate() {
 function animateNext() {
 	if (lemon1.style.animationPlayState == "paused" &&
 		lemon2.style.animationPlayState == "paused") {
-		lemon1.style.animationPlayState = "running";
-		lemon2.style.animationPlayState = "running";
+		animate();
+	} else {
+		animate();
 	}
 }
 
